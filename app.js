@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 
 const routes = require('./server/routes/index');
 
-
 const app = express();
 
 app.use(logger('dev'));
